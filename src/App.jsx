@@ -1,4 +1,5 @@
 /**
+ *
  * Main APP JS File
  *
  * @author: John Dave Lagdameo <jdlagdameo.dev@gmail.com>
@@ -6,13 +7,13 @@
  *
  * @internal revisions:
  * +
- * +
- * +
+ *
  */
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import RosterCalendar from "./pages/RosterCalendar/";
+
 import "./assets/sass/app.scss";
 
 function App() {
